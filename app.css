@@ -1,0 +1,151 @@
+ 
+
+.progress-container{
+    width: 500px;
+    height : 30px;
+    border: 1px solid;
+}
+
+.progress-container .bar{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+}
+
+
+.btn{
+    background-color: #e0e0e0;
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.popup{
+    position: relative;
+    background-color: white;
+    /* color: white; */
+    border: 1px solid;
+    width: 400px;
+    height: 286px;
+    right: -119px;
+    box-shadow: 0px 4px 27px #666;
+    padding: 20px;
+}
+
+.popup .current-data{
+    display: flex;
+    justify-content: center;
+}
+
+.popup .footer{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+    text-align: center;
+}
+
+.popup .main .container .text-area{
+    width: 400px;
+    height: 100px; 
+}
+
+.popup .close-icon{
+    cursor: pointer;
+    color: black;
+}
+
+.calander{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.calander .box{ 
+    /* display: inline-block; */
+    border: 1px solid gray;
+    color: #666;
+    /* box-shadow: 3px 2px 6px #e0e0e0; */
+    width: 120px;
+    height: 40px;
+}
+.calander .box:hover{ 
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.cal-container{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: #f8f8f8;
+    text-align: center;
+    /* margin: -84px; */
+    border-bottom: 1px solid blue;
+    padding: 12px;
+}
+
+
+
+.mid-align{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.display-on-focus{
+    display: none;
+}
+.dropdown-menu{
+    background: #f1f1f1;
+    width: 100%;
+    width: 100%;  
+}
+
+.dropdown-menu  li:hover {
+    background-color: #3689eecf;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu  li.active {
+    background-color: #0b58d4;
+    color: white; 
+}
+
+.dropdown-menu li{
+    list-style-type: none;
+    padding: 8px;
+}
+
+.dropdown-menu ul {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 18px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc; 
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
